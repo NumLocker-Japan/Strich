@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Strich</title>
+    <!-- モダンブラウザ向け -->
+</head>
+<body>
+    <style>
+        body {
+            /* margin: 0; */
+            background-color: transparent;
+        }
+    
+        .middle {
+            display: inline-block;
+            margin-left: calc(100vw / 300 * 7.5);
+            margin-right: calc(100vw / 300 * 7.5);
+            margin-bottom: calc(100vw / 300 * 19.5);
+        }
+    
+        .center_big {
+            display: inline-block;
+            height: calc(100vw / 300 * 59.5);
+            margin: 0 calc(100vw / 300 * (-3));
+        }
+    
+        #triangle1{
+            background-color: transparent;
+            width: 0;
+            height: 0;
+            border-bottom: calc(100vw / 300 * 41) solid black;
+            border-right: calc(100vw / 300 * 20.75) solid transparent;
+            border-left: calc(100vw / 300  *20.75) solid transparent;
+            margin: 0;
+        }
+    
+        #triangle2{
+            background-color: transparent;
+            width: 0;
+            height: 0;
+            border-bottom: calc(100vw / 300 * 38) solid white;
+            border-right: calc(100vw / 300 * 19.25) solid transparent;
+            border-left: calc(100vw / 300 * 19.25) solid transparent;
+            position: relative;
+            bottom: calc(100vw / 300 * 39);
+            left: calc(100vw / 300 * 1.5);
+            margin: 0;
+        }
+    
+    
+    
+        #triangle3{
+            background-color: transparent;
+            width: 0;
+            height: 0;
+            border-bottom: calc(100vw / 300 * 21) solid black;
+            border-right: calc(100vw / 300 * 10.5) solid transparent;
+            border-left: calc(100vw / 300 * 10.5) solid transparent;
+            margin: 0;
+        }
+    
+        #triangle4{
+            background-color: transparent;
+            width: 0;
+            height: 0;
+            border-bottom: calc(100vw / 300 * 19) solid white;
+            border-right: calc(100vw / 300 * 9.5) solid transparent;
+            border-left: calc(100vw / 300 * 9.5) solid transparent;
+            position: relative;
+            bottom: calc(100vw / 300 * 19);
+            left: calc(100vw / 300 * 1);
+            margin: 0;
+        }
+        </style>
+    </head>
+    <body>
+    
+        <div class="middle">
+                <div id="triangle3"></div>
+                <div id="triangle4"></div>
+        </div>
+        <div class="middle">
+                <div id="triangle3"></div>
+                <div id="triangle4"></div>
+        </div>
+        <div class="middle">
+                <div id="triangle3"></div>
+                <div id="triangle4"></div>
+        </div>
+    
+        <div class="center_big">
+                <div id="triangle1"></div>
+                <div id="triangle2"></div>
+        </div>
+    
+        <div class="middle">
+                <div id="triangle3"></div>
+                <div id="triangle4"></div>
+        </div>
+        <div class="middle">
+                <div id="triangle3"></div>
+                <div id="triangle4"></div>
+        </div>
+        <div class="middle">
+                <div id="triangle3"></div>
+                <div id="triangle4"></div>
+        </div>    
+</body>
+</html>
